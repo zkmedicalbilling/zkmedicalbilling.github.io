@@ -1,23 +1,37 @@
 # ZK Medical Billing Knowledge Hub
 
-A static, responsive, bilingual (English/Urdu) educational website for GitHub Pages.
+A responsive, bilingual (English/Urdu) educational website for medical billing and Revenue Cycle Management (RCM).
 
-## Files
-- `index.html` — homepage structure
-- `assets/style.css` — design and responsive layout
-- `assets/articles.js` — article titles, descriptions and categories
-- `assets/script.js` — category filters, search and language toggle
+## Website
+https://zkmedicalbilling.github.io
 
-## Publish on GitHub Pages
-1. Extract this ZIP on your computer.
-2. Open your `zkmedicalbilling.github.io` repository.
-3. Upload `index.html` and the complete `assets` folder to the repository root.
-4. If GitHub asks, choose to replace the old files.
+## Creator profile
+Zeeshan Khan — Medical Billing & RCM  
+LinkedIn: https://pk.linkedin.com/in/zeeshan-khan-08285b1b5
+
+## Included features
+- Responsive homepage and navigation
+- English / Urdu language toggle
+- Search and category filters
+- Seven bilingual beginner lessons
+- Full lesson reader modal
+- About section and LinkedIn profile link
+- Educational disclaimer and PHI privacy reminder
+
+## GitHub Pages deployment
+1. Download and extract this ZIP.
+2. Open the repository `zkmedicalbilling.github.io`.
+3. Upload the contents of the extracted folder (not the outer folder itself).
+4. Keep this exact structure:
+   - `index.html`
+   - `README.md`
+   - `assets/style.css`
+   - `assets/articles.js`
+   - `assets/script.js`
 5. Commit changes to the `main` branch.
-6. Open `https://zkmedicalbilling.github.io` and refresh with `Ctrl + F5`.
+6. In repository Settings → Pages, confirm Deploy from a branch, `main`, `/(root)`.
 
-## Add an article
-Edit `assets/articles.js` and add another object to `window.KB_ARTICLES`. Provide English and Urdu title/description plus a category.
+## Important
+This site is educational only, not professional coding, legal, payer, medical, or compliance advice. Confirm current official guidance before relying on information. Never publish PHI, patient names, member IDs, claim numbers, passwords, or other confidential data.
 
-## Privacy and accuracy
-This is a public educational website. Never publish patient names, dates of birth, member IDs, claim numbers, medical records, screenshots, login details, or other protected/private information. Verify payer policies and coding guidance with authoritative, current sources before relying on them. The sample articles are educational placeholders, not payer-specific instructions.
+The site uses Google Fonts from an external service; default system fonts remain as fallback.
