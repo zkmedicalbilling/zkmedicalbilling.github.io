@@ -28,3 +28,35 @@
 .learning-promise b{color:#536879}
 @media(max-width:900px){.path-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.path-intro{display:block}.path-intro>p{margin-top:12px}.path-grid{grid-template-columns:1fr}.path-card{min-height:205px}.learning-promise{justify-content:flex-start;gap:12px 22px}.hero-grid{min-height:0}}
+
+.category-hero{background:linear-gradient(120deg,#eff7fb,#e5f5f3);padding:58px 0 52px}
+.category-hero .back-link{display:inline-block;color:#078d85;font-size:13px;font-weight:700;margin-bottom:18px}
+.category-hero h1{font:800 clamp(30px,4vw,44px)/1.2 Manrope;color:var(--navy);margin:0 0 12px}
+.category-hero p{max-width:680px;color:#607486;margin:0}
+.category-content{padding:48px 0 76px}
+.category-toolbar{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:24px}
+.category-toolbar input{width:min(360px,100%);padding:12px 15px;border:1px solid var(--line);border-radius:10px;font:inherit;outline:none}
+.category-toolbar input:focus{border-color:var(--teal);box-shadow:0 0 0 3px #13a89e18}
+.category-count{font-size:12px;color:var(--muted)}
+.category-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+.category-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;min-height:225px;box-shadow:0 8px 24px #102b4608;transition:.2s}
+.category-card:hover{transform:translateY(-4px);box-shadow:0 16px 32px #102b4614;border-color:#a9ddd6}
+.category-card .meta{display:flex;align-items:center;gap:9px;color:#078d85;font-size:11px;font-weight:800}
+.category-card .symbol{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:#e8f6f4;font-size:20px}
+.category-card h2{font:800 17px/1.4 Manrope;color:var(--navy);margin:16px 0 8px}
+.category-card p{font-size:13px;color:var(--muted);margin:0 0 18px}
+.category-card button{margin-top:auto;align-self:flex-start;border:0;background:none;padding:0;color:#078d85;font-weight:800;font:700 12px "DM Sans",sans-serif;cursor:pointer}
+.category-empty{padding:25px;border:1px dashed #cbd9e2;border-radius:12px;color:var(--muted);text-align:center}
+.lesson-modal{position:fixed;inset:0;z-index:30;display:none;align-items:center;justify-content:center;padding:20px}
+.lesson-modal.open{display:flex}
+.lesson-modal .shade{position:absolute;inset:0;background:#071b2bd9}
+.lesson-modal article{position:relative;width:min(850px,100%);max-height:88vh;overflow:auto;background:#fff;border-radius:18px;padding:34px}
+.lesson-modal .close{position:sticky;float:right;top:0;border:0;background:#edf4f7;border-radius:50%;width:36px;height:36px;font-size:23px;cursor:pointer}
+.lesson-modal h2{font:800 25px/1.3 Manrope;color:var(--navy);margin:12px 40px 20px 0}
+.lesson-modal .lesson-body{color:#344b5d;font-size:14px;line-height:1.85}
+.lesson-modal .lesson-body h3{color:var(--navy);margin-top:25px}
+.lesson-modal .lesson-body li{margin:8px 0}
+.lesson-modal .done{margin-top:24px;border:0;border-radius:9px;background:var(--navy);color:#fff;padding:11px 18px;font-weight:700;cursor:pointer}
+[dir="rtl"] .category-hero h1,[dir="rtl"] .category-hero p,[dir="rtl"] .category-card,[dir="rtl"] .lesson-modal article{line-height:2}
+@media(max-width:850px){.category-cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:580px){.category-toolbar{align-items:stretch;flex-direction:column}.category-cards{grid-template-columns:1fr}.lesson-modal article{padding:22px}.category-hero{padding:42px 0}}
