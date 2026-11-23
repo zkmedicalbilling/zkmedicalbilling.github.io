@@ -1,6 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap');
-:root{--navy:#12345a;--blue:#1f65a5;--cyan:#dff3f5;--ink:#172b42;--muted:#63758a;--paper:#f5f8fb;--line:#e1e9f0;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--white);color:var(--ink);font-family:"DM Sans",Arial,sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.site-header{height:78px;border-bottom:1px solid var(--line);background:#ffffffed;position:sticky;top:0;z-index:10;backdrop-filter:blur(12px)}.nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;color:var(--navy);line-height:1.15}.brand-mark{width:43px;height:43px;border-radius:12px;background:var(--navy);color:white;display:grid;place-items:center;font-weight:800;letter-spacing:-1px}.brand strong,.brand small{display:block}.brand small{font-size:11px;color:var(--muted);margin-top:4px}.nav nav{display:flex;gap:30px;color:#42566d;font-size:14px;font-weight:600}.nav nav a:hover{color:var(--blue)}.lang-toggle{border:1px solid #cbd9e6;background:white;border-radius:9px;padding:8px 14px;color:var(--navy);font-weight:700;cursor:pointer}.hero{background:linear-gradient(120deg,#eff7fc 0%,#f5fbfc 58%,#e5f4f5 100%);padding:84px 0 88px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:70px}.eyebrow{font-size:11px;letter-spacing:1.8px;font-weight:800;color:var(--blue);margin:0 0 13px}.hero h1{font-size:clamp(38px,5vw,58px);line-height:1.12;letter-spacing:-2px;color:var(--navy);margin:0 0 22px;max-width:650px}.hero-copy{font-size:17px;color:#52677c;max-width:610px;margin:0 0 30px}.primary-btn{display:inline-block;background:var(--navy);color:white;border-radius:9px;padding:13px 20px;font-weight:700;font-size:14px;box-shadow:0 8px 18px #12345a22}.primary-btn:hover{background:var(--blue)}.hero-card{background:var(--navy);color:white;border-radius:18px;padding:27px 30px;box-shadow:0 22px 50px #12345a24}.hero-card-top{font-size:10px;letter-spacing:1.6px;color:#b8d6ec;font-weight:700;display:flex;align-items:center;gap:9px;margin-bottom:23px}.pulse{width:8px;height:8px;background:#61d6c5;border-radius:50%;box-shadow:0 0 0 5px #61d6c522}.stat{display:flex;align-items:center;gap:18px;padding:14px 0;border-top:1px solid #ffffff24;font-weight:600}.stat strong{color:#79c9d1;font-size:13px}.card-note{color:#b8d6ec;font-size:13px;margin:20px 0 0}.section{padding-top:76px;padding-bottom:76px}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:27px}.section h2,.about-section h2{font-size:32px;line-height:1.2;letter-spacing:-.8px;color:var(--navy);margin:0}.topic-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.topic-card{border:1px solid var(--line);border-radius:13px;padding:22px 20px;background:white;transition:.2s}.topic-card:hover,.article-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px #193c5b10}.topic-icon{display:grid;place-items:center;width:39px;height:39px;background:#eaf4fa;color:var(--blue);border-radius:10px;font-size:21px;font-weight:700}.topic-card h3{font-size:16px;color:var(--navy);margin:16px 0 7px}.topic-card p{font-size:13px;color:var(--muted);margin:0}.latest-section{background:var(--paper)}.muted{font-size:12px;color:var(--muted)}.article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.article-card{background:white;border:1px solid var(--line);border-radius:13px;padding:22px;transition:.2s}.article-tag{display:inline-block;background:#eaf4fa;color:var(--blue);font-size:10px;font-weight:800;letter-spacing:.8px;padding:5px 9px;border-radius:20px}.article-card h3{font-size:18px;line-height:1.35;color:var(--navy);margin:15px 0 9px}.article-card p{font-size:13px;color:var(--muted);margin:0 0 17px}.article-date{font-size:11px;color:#8795a5}.empty-state{grid-column:1/-1;border:1px dashed #c9d8e4;border-radius:12px;padding:26px;color:var(--muted);background:#fff}.about-section{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.about-section>p{color:var(--muted);font-size:14px;margin:0}.site-footer{background:#0d2948;color:#c5d5e4;padding:25px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}.footer-brand{color:white}.footer-brand .brand-mark{background:#24517b}.footer-brand small{color:#a9c1d6}.footer-inner p{font-size:11px;margin:0;color:#a9bdcf}
-[dir="rtl"] body{font-family:"Noto Nastaliq Urdu","DM Sans",serif}[dir="rtl"] .hero h1{letter-spacing:0;line-height:1.8}[dir="rtl"] .hero-copy,[dir="rtl"] .topic-card p,[dir="rtl"] .about-section>p{line-height:2.1}[dir="rtl"] .eyebrow{letter-spacing:0}[dir="rtl"] .stat{flex-direction:row-reverse;justify-content:flex-end}
-@media(max-width:800px){.hero-grid{grid-template-columns:1fr;gap:35px}.topic-grid{grid-template-columns:repeat(2,1fr)}.article-grid{grid-template-columns:1fr 1fr}.about-section{grid-template-columns:1fr;gap:20px}.nav nav{gap:13px}.nav nav a{font-size:12px}}
-@media(max-width:560px){.site-header{height:auto}.nav{padding:12px 0;flex-wrap:wrap}.nav nav{order:3;width:100%;justify-content:space-between}.hero{padding:58px 0}.hero h1{font-size:39px}.topic-grid,.article-grid{grid-template-columns:1fr}.section{padding-top:55px;padding-bottom:55px}.section-heading{align-items:start;flex-direction:column}.footer-inner{align-items:flex-start;flex-direction:column}}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ZK Medical Billing Knowledge Hub — practical learning resources for medical billing and revenue cycle management.">
+  <title>ZK Medical Billing Knowledge Hub</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="ZK Medical Billing Knowledge Hub home">
+      <span class="brand-mark">ZK</span>
+      <span><strong>ZK Medical Billing</strong><small>Knowledge Hub</small></span>
+    </a>
+    <nav class="nav">
+      <a href="#home" data-en="Home" data-ur="صفحۂ اول">Home</a>
+      <a href="#library" data-en="Knowledge Library" data-ur="معلوماتی لائبریری">Knowledge Library</a>
+      <a href="#about" data-en="About" data-ur="تعارف">About</a>
+    </nav>
+    <button id="languageToggle" class="language-btn" type="button">اردو</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow" data-en="LEARN • PRACTICE • IMPROVE" data-ur="سیکھیں • مشق کریں • بہتر بنائیں">LEARN • PRACTICE • IMPROVE</span>
+        <h1 data-en="Your practical guide to Medical Billing & RCM" data-ur="میڈیکل بلنگ اور RCM کے لیے آپ کی عملی رہنمائی">Your practical guide to Medical Billing & RCM</h1>
+        <p data-en="Clear explanations, useful workflows, and learning resources for medical billing professionals." data-ur="میڈیکل بلنگ کے ماہرین کے لیے آسان وضاحتیں، مفید ورک فلو، اور سیکھنے کے وسائل۔">Clear explanations, useful workflows, and learning resources for medical billing professionals.</p>
+        <a class="primary-btn" href="#library" data-en="Explore the library" data-ur="لائبریری دیکھیں">Explore the library</a>
+      </div>
+      <div class="hero-card">
+        <div class="hero-icon">✚</div>
+        <h2 data-en="Knowledge that supports better billing" data-ur="بہتر بلنگ کے لیے مفید معلومات">Knowledge that supports better billing</h2>
+        <p data-en="Understand the process from claim submission to payment posting and follow-up." data-ur="کلیم جمع کروانے سے لے کر ادائیگی درج کرنے اور فالو اَپ تک پورا عمل سمجھیں۔">Understand the process from claim submission to payment posting and follow-up.</p>
+        <div class="mini-stats"><span><b>01</b> <small data-en="Learn" data-ur="سیکھیں">Learn</small></span><span><b>02</b> <small data-en="Apply" data-ur="عمل کریں">Apply</small></span><span><b>03</b> <small data-en="Grow" data-ur="ترقی کریں">Grow</small></span></div>
+      </div>
+    </section>
+
+    <section class="library-section" id="library">
+      <div class="section-heading">
+        <div><span class="eyebrow" data-en="RESOURCE CENTER" data-ur="معلوماتی مرکز">RESOURCE CENTER</span>
+          <h2 data-en="Knowledge Library" data-ur="معلوماتی لائبریری">Knowledge Library</h2>
+          <p data-en="Browse topics or search for a specific billing subject." data-ur="موضوعات دیکھیں یا کسی خاص بلنگ موضوع کو تلاش کریں۔">Browse topics or search for a specific billing subject.</p>
+        </div>
+        <div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Search articles..." aria-label="Search articles"></div>
+      </div>
+      <div id="categoryFilters" class="filters" aria-label="Article categories"></div>
+      <div id="articleGrid" class="article-grid" aria-live="polite"></div>
+      <p id="emptyMessage" class="empty-message" hidden>No articles found. Try another search.</p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div><span class="eyebrow" data-en="ABOUT THIS PROJECT" data-ur="اس ویب سائٹ کے بارے میں">ABOUT THIS PROJECT</span>
+      <h2 data-en="Built for practical learning" data-ur="عملی سیکھنے کے لیے تیار کردہ">Built for practical learning</h2></div>
+      <p data-en="ZK Medical Billing Knowledge Hub is an educational resource. It is designed to explain common medical billing concepts in a simple way. Always verify payer rules, coding guidance, and current regulations with authoritative sources before acting on a claim." data-ur="ZK Medical Billing Knowledge Hub ایک تعلیمی پلیٹ فارم ہے جو میڈیکل بلنگ کے عام موضوعات کو آسان انداز میں سمجھانے کے لیے بنایا گیا ہے۔ کسی کلیم پر عمل کرنے سے پہلے payer rules، coding guidance اور موجودہ ضوابط کی مستند ذرائع سے تصدیق کریں۔">ZK Medical Billing Knowledge Hub is an educational resource. It is designed to explain common medical billing concepts in a simple way. Always verify payer rules, coding guidance, and current regulations with authoritative sources before acting on a claim.</p>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> ZK Medical Billing Knowledge Hub</span><span data-en="Educational use only • No patient information" data-ur="صرف تعلیمی مقصد کے لیے • مریضوں کی معلومات شامل نہ کریں">Educational use only • No patient information</span></footer>
+  <script src="assets/articles.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+</html>
