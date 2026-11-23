@@ -60,3 +60,8 @@
 [dir="rtl"] .category-hero h1,[dir="rtl"] .category-hero p,[dir="rtl"] .category-card,[dir="rtl"] .lesson-modal article{line-height:2}
 @media(max-width:850px){.category-cards{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:580px){.category-toolbar{align-items:stretch;flex-direction:column}.category-cards{grid-template-columns:1fr}.lesson-modal article{padding:22px}.category-hero{padding:42px 0}}
+
+/* Denial code directory */
+.denial-intro{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:18px;padding:18px 20px;border:1px solid var(--line);border-radius:12px;background:#f7fbfc}.denial-intro>a{font-size:12px;font-weight:800;color:#087eaa;white-space:nowrap}
+.denial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.denial-card{display:flex;flex-direction:column;align-items:flex-start;gap:7px;text-align:left;min-height:150px;padding:17px;border:1px solid var(--line);border-radius:12px;background:#fff;cursor:pointer;transition:.18s}.denial-card:hover{transform:translateY(-3px);border-color:#9bd7d0;box-shadow:0 12px 28px #102b4612}.denial-card>span{font-size:9px;letter-spacing:1.2px;color:#0b938b;font-weight:800}.denial-card>b{font:800 25px Manrope;color:var(--navy)}.denial-card>strong{font:700 12px/1.45 'DM Sans',sans-serif;color:#41596b}.denial-card>i{margin-top:auto;font-style:normal;font-size:11px;font-weight:800;color:#078d85}
+@media(max-width:850px){.denial-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:580px){.denial-grid{grid-template-columns:1fr}.denial-intro{align-items:flex-start;flex-direction:column}}
