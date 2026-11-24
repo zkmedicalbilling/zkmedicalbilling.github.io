@@ -110,3 +110,10 @@ body.urdu .about{text-align:center}
 body.urdu .guide-alert,body.urdu .compare-card,body.urdu .scenario-list,body.urdu .guide-table{direction:rtl;text-align:right}
 body.urdu .compare-card ul{padding-right:20px;padding-left:0}
 @media(max-width:700px){.guide-stat-grid{grid-template-columns:1fr}.compare-grid,.scenario-list{grid-template-columns:1fr}}
+
+
+/* Leadership profiles */
+.leadership-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch;max-width:760px;margin:0 auto}
+.leadership-grid .profile{width:100%;max-width:none;box-sizing:border-box;height:100%}
+.leadership-grid .avatar{display:grid;place-items:center;color:#fff;font-weight:800}
+@media(max-width:620px){.leadership-grid{grid-template-columns:1fr;max-width:360px;gap:18px}}
